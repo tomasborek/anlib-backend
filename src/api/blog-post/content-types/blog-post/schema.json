@@ -37,6 +37,15 @@
     },
     "date": {
       "type": "date"
+    },
+    "language": {
+      "type": "enumeration",
+      "enum": [
+        "cs",
+        "sk"
+      ],
+      "default": "cs",
+      "required": true
     }
   }
 }
